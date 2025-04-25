@@ -11,6 +11,7 @@ export default function WhatsAppButton() {
             target="_blank"
             rel="noopener noreferrer"
             className="fixed bottom-5 right-5 z-50 bg-red-500 p-4 rounded-full shadow-lg hover:scale-105 transition-transform"
+            aria-label="Enviar mensaje en WhatsApp"
         >
             <FaWhatsapp className="text-white md:text-5xl text-xl" />
         </Link>

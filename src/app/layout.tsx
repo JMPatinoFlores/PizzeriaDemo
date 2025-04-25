@@ -25,7 +25,9 @@ export const metadata: Metadata = {
     openGraph: {
         title: "PIZZAJY",
         description: "¡La pizza que se te antoja, cuando quieras!",
-        // images: ["/pizzalanding.png"],
+        images: [
+            "https://opengraph.b-cdn.net/production/images/b9388535-7c20-4544-bab9-e30bb5531637.jpg?token=chPNDi-quNghOOw2MUmJHteb3630H3IAKiL96vn36wo&height=800&width=1200&expires=33281551997",
+        ],
         url: "https://pizzeria-demo-ecru.vercel.app/",
     },
 };

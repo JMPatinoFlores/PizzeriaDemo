@@ -16,19 +16,36 @@ export default function Contact() {
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
+                    title="Ubicación de la tienda de pizzería en Valle de Chalco"
                 ></iframe>
             </div>
             <div className="flex items-center  bg-white/10 backdrop-blur-sm py-4 px-8 rounded-full text-red-500 text-lg md:text-3xl w-full justify-around">
-                <Link href={datosCliente.redes.facebook} target="_blank">
+                <Link
+                    href={datosCliente.redes.facebook}
+                    target="_blank"
+                    aria-label="Ir a la página de Facebook"
+                >
                     <FaFacebook />
                 </Link>
-                <Link href={datosCliente.redes.facebook} target="_blank">
+                <Link
+                    href={datosCliente.redes.facebook}
+                    target="_blank"
+                    aria-label="Ir a la página de Twitter"
+                >
                     <FaTwitter />
                 </Link>
-                <Link href={datosCliente.redes.facebook} target="_blank">
+                <Link
+                    href={datosCliente.redes.facebook}
+                    target="_blank"
+                    aria-label="Ir a la página de Tiktok"
+                >
                     <FaTiktok />
                 </Link>
-                <Link href={datosCliente.redes.facebook} target="_blank">
+                <Link
+                    href={datosCliente.redes.facebook}
+                    target="_blank"
+                    aria-label="Ir a la página de Instagram"
+                >
                     <FaInstagram />
                 </Link>
             </div>
